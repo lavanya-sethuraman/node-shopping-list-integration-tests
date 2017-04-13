@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WOuugMMqtEVd2Q4urQTvJ5gUGbouF6o11ql+oqp0gdrXLBlE1Vhll9TGEqTEzc1igZSG00sr26oE5sxyE/k3kk/KLM+JvPtzZ1woBtpLmU80FBfoDdUoF+yGl0/lMNvc8yD6Uy4swSOwet5Vgiv6r/QSBKsCdg5f4sDY5p5pybNvOWsysG+5+9CfW9UzfDEYkGaHbXbHmHg35AoNXeY7aXmXTw4+cFVJ6DCbpvprEdvw5/+qWGh9zmUpRfzBAzYQoOtZA4LpnzN1nNOBIHIeTAG5ZRbFPWY+e3uN3eoEPUFqeBcdIZspVnInIG5bAmzmoR0dp3XGskq7b4t7dST9fKUuLw0aZpH84bLvP9Hi0HxBOay/qng/kPwupf3DGWD3nbJQTZchQjzQZPzIHxFKtFHlOSXxxqrPGqRDUr4zrjQZ9zlWdsJ45r5p0iX+wSvntvtTMbbe0qlO6D9wFdFAgIG4VaMNJK3CM9O6LURLUEGLERZzYXbNXoD8BseN3155NhFZj+WPhKPxgz50YBZ9DPVPXohscwryrjeFSDcO8uV2XbG4obca73Q0fGfcJIqPVLcXC5xy8TYPpXAmP14Fx+kxoUvKj7yKdkh8k/YHujXrEHfB+Ie/2CHD8sQF802l7L0oWmEmEi+o6WnydFXh/Gy7HWJcvGjLQdoFog/TcC4=
+  app: first-travis-ci
+  on:
+    repo: lavanya-sethuraman/node-shopping-list-integration-tests
